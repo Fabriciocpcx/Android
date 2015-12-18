@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snack</string>
+    <string name="Texto1">INGREDIENTS</string>
+    <string name="bt_cardapio">MENU</string>
+    <string name="bt_localizar">TO LOCATE</string>
+    <string name="bt_montar">MOUNT</string>
+    <string name="bt_voltar">come back</string>
+</resources>

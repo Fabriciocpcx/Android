@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:layout_alignRight="@+id/num2"
+        android:layout_alignEnd="@+id/num2"
+        android:layout_alignLeft="@+id/num2"
+        android:layout_alignStart="@+id/num2" />
+
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btSomar"
+       android:layout_below="@+id/num2"
+       android:layout_toLeftOf="@+id/tvInfo"
+       android:layout_toStartOf="@+id/tvInfo"
+       android:layout_marginTop="134dp"
+       android:onClick="soma"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btSubtrair"
+        android:layout_alignTop="@+id/btSomar"
+        android:layout_toRightOf="@+id/btSomar"
+        android:layout_toEndOf="@+id/btSomar"
+        android:onClick="subtrair"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/btMultiplicar"
+        android:layout_alignBottom="@+id/btSubtrair"
+        android:layout_toRightOf="@+id/btSubtrair"
+        android:layout_toEndOf="@+id/btSubtrair"
+        android:onClick="multiplicar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/btDividir"
+        android:layout_alignBottom="@+id/btMultiplicar"
+        android:layout_toRightOf="@+id/btMultiplicar"
+        android:layout_toEndOf="@+id/btMultiplicar"
+        android:onClick="dividir"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/num1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a opção desejada :"
+        android:id="@+id/tvInfo"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/btSubtrair"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

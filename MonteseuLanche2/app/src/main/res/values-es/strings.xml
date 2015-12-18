@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bocadilho</string>
+    <string name="Texto1">INGREDIENTES</string>
+    <string name="bt_localizar">LOCALIZAR</string>
+    <string name="bt_voltar">retorno</string>
+    <string name="bt_montar">MONTE</string>
+    <string name="bt_cardapio">CARDAPIO</string>
+</resources>

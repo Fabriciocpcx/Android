@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lanches</string>
+
+    <string name="bt_cardapio">CARDÁPIO</string>
+    <string name="bt_montar">MONTAR</string>
+    <string name="bt_localizar">LOCALIZAR</string>
+    <string name="bt_voltar">voltar</string>
+    <string name="Texto1">INGREDIENTES</string>
+
+
+</resources>

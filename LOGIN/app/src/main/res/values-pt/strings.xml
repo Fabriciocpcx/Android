@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LOGIN</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar"> Cadastrar</string>
+    <string name="logar">Logar</string>
+    <string name="excluir">Excuir</string>
+
+    <string name="title_activity_act_segunda_tela">actSegundaTela</string>
+</resources>
