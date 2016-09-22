@@ -38,7 +38,6 @@ public class CardapioActivity extends AppCompatActivity {
         adpLista.add("CACHORRO-QUENTE PRENSADO");
         adpLista.add("X-FRANGO");
         adpLista.add("BAURÚ");
-        adpLista.add("PÃO-COM-OVO");
         adpLista.add("X-BAGUNCINHA");
         adpLista.add("X-TUDO");
         adpLista.add("X-DEMOLIDOR");
@@ -52,7 +51,6 @@ public class CardapioActivity extends AppCompatActivity {
         lista.add("Pão, Hamburg, Salsicha, Batata Palha Tomate, Maionese, Mussarela");
         lista.add("Pão, Frango, Milho Verde, Alface, Tomate, Maionese, Mussarela");
         lista.add("Pão Francês, Presunto , Alface, Tomate, Maionese, Mussarela");
-        lista.add("Pão Francês, Ovo Frito, Maionese");
         lista.add("Pão, Hamburg, Bacon, Alface, Milho, Ovo Frito, Tomate, Maionese, Presunto, Mussarela");
         lista.add("Pão, Hamburg, Frango, Batata Palha, Bacon, Alface, Milho, Ovo Frito, Tomate, Maionese, Presunto, Mussarela");
         lista.add("Pão, Hamburg, Frango, Picles, Batata Palha, Bacon, Salsicha, Cheddar, Alface, Milho, Ovo Frito, Tomate, Maionese, Presunto, Mussarela");
@@ -63,7 +61,6 @@ public class CardapioActivity extends AppCompatActivity {
         valor.add("8,00");
         valor.add("8,50");
         valor.add("6,00");
-        valor.add("4,00");
         valor.add("9,00");
         valor.add("10,00");
         valor.add("15,00");
